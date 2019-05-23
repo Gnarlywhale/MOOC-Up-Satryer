@@ -1,3 +1,5 @@
+% Load and pre-process headline data set
+
 dataFileName = 'Sarcasm_Headlines_Dataset.json';
 dataSaveName = 'headlineData.mat';
 

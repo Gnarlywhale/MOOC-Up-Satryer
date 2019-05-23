@@ -4,7 +4,7 @@ load(sanitizedDataFileName); % Should load variables: 'processedHeadlines' and '
 
 dictCount = {};
 for i = 1:length(processedHeadlines)
-    i
+    i % Display current loop iteration
     curHead = processedHeadlines{i};
     while ~isempty(curHead)
         [str, curHead] = ...
