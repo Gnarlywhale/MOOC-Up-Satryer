@@ -4,7 +4,7 @@ function headline = preprocessHeadline(headline)
 %
 
 % % Convert all text to lowercase
-% email_contents = lower(email_contents);
+headline = lower(headline);
 
 % Handle Numbers
 % Look for one or more characters between 0-9

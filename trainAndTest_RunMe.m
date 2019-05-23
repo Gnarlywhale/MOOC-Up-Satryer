@@ -15,8 +15,8 @@ y_test = y(numTrainingHeadlines+1:end);
 
 % Train model
 C = 0.1;
-model = svmTrain(X, y, C, @linearKernel);
+model = svmTrain(X_train, y_train, C, @linearKernel);
 
-p = svmPredict(model, X);
+p = svmPredict(model, X_train);
 
 
